@@ -1,7 +1,8 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 
-const [email = 'joejoe@gmail.com', password = 'xxxxx', urlPage = 'https://accounts.google.com/'] = process.argv.slice(2);
+const [email = 'joejoe@gmail.com', password = 'xxxxx'] = process.argv.slice(2);
+const urlPage = 'https://accounts.google.com/';
 
 (async () => {
     puppeteer.use(StealthPlugin());
