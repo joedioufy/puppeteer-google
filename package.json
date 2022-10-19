@@ -5,9 +5,9 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Joseph DIOUF",
   "license": "ISC",
-  "description": "",
+  "description": "Automatically sign in with Google using Puppeteer",
   "dependencies": {
     "puppeteer": "^19.0.0",
     "puppeteer-extra": "^3.3.4",
